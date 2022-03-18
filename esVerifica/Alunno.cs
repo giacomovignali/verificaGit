@@ -45,7 +45,25 @@ namespace esVerifica
             Citta = citta;
         }
 
+        public string CalcoloAnno()
+        {
+            string anno = " ";
+            if(_eta < 16)
+            {
+                anno = "Biennio";
+            }
+            else if(_eta >= 16)
+            {
+                anno = "Triennio";
+            }
 
+            return anno;
+        }
+
+        public override string ToString()
+        {
+            return Nome + " " + Cognome + " " + Eta + " " + Citta;
+        }
 
     }
 }
