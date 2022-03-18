@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//commento a caso
 namespace esVerifica
 {
     class Scuola
