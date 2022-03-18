@@ -11,6 +11,7 @@ namespace esVerifica
         private string _nome;
         private string _indirizzo;
         private int _orarioApertura, _orarioChiusura;
+        private List<Alunno> alunni;
 
         public string Nome
         {
@@ -35,6 +36,28 @@ namespace esVerifica
             set { _orarioChiusura = value; }
         }
 
+       public void AggiungiAlunno()
+       {
+            alunni.Add(Alunno);
+       }
+
+        public int CalcolaAlunni()
+        {
+            int alunni = alunni.count();
+
+            return alunni;
+        }
+        
+        public void RicercaCognome()
+        {
+
+        }
+
+        public void RicercaEta()
+        {
+
+        }
+         
 
         public Scuola(string nome, string indirizzo, int apertura, int chiusura)
         {
@@ -42,7 +65,10 @@ namespace esVerifica
             Indirizzo = indirizzo;
             OrarioApertura = apertura;
             OrarioChiusura = chiusura;
+            
         }
+
+       
 
 
     }
