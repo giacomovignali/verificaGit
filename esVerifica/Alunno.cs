@@ -45,6 +45,15 @@ namespace esVerifica
             Citta = citta;
         }
 
+
+        public void ModificaAluno(string nome, string cognome, int eta, string citta)
+        {
+            Nome = nome;
+            Cognome = cognome;
+            Eta = eta;
+            Citta = citta;
+        }
+
         public string CalcoloAnno()
         {
             string anno = " ";
