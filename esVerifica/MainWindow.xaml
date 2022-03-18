@@ -18,6 +18,10 @@
         <Label Content="INDIRIZZO" HorizontalAlignment="Left" Margin="30,111,0,0" VerticalAlignment="Top"/>
         <ListBox x:Name="lst_alunni" HorizontalAlignment="Left" Height="233" Margin="487,37,0,0" VerticalAlignment="Top" Width="100"/>
         <TextBlock x:Name="txt_alunniCount" HorizontalAlignment="Left" Margin="433,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_cognome1" HorizontalAlignment="Left" Height="23" Margin="102,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_eta1" HorizontalAlignment="Left" Height="23" Margin="102,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btn_cercaCognom" Content="cerca per cognome 🔎" HorizontalAlignment="Left" Margin="227,216,0,0" VerticalAlignment="Top" Width="135"/>
+        <Button x:Name="btn_cercaCognom_Copy" Content="cerca per eta 🔎" HorizontalAlignment="Left" Margin="227,247,0,0" VerticalAlignment="Top" Width="135"/>
 
     </Grid>
 </Window>
